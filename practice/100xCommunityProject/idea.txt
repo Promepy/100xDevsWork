@@ -1,0 +1,32 @@
+100x Community Project
+
+Initial user Credentials
+    User name - Promepy
+    Password - PromepyIsNoob
+
+User Schema/Model
+
+const User = mongoose.model('users',{
+    name: String,
+    email: String,
+    links: [String]
+});
+
+
+CRUD operations
+
+Create - Add users to above Schema by filling a form
+        Form
+            Name - text
+            email - email
+            links -
+                github - link
+                linkedin - link
+                twitter - link
+            process inputs and add them to list in the order. add "NA" if not given
+
+Read - A page to display everyone's data
+
+Update - Populate read values in form and make it available to update
+
+Delete - Delete data.
